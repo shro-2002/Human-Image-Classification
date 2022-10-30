@@ -9,7 +9,7 @@ for i in range(1,174):
     gray =cv.cvtColor(img,cv.COLOR_BGR2GRAY)
     #cv.imshow('Gray',gray)
 
-    haar_cascade = cv.CascadeClassifier('C:/Users/KIIT/Desktop/Human Image Proj/Sample/haarcascade_frontalface_default.xml') #Reads the haarcascade file and store in the variable
+    haar_cascade = cv.CascadeClassifier('C:\Users\KIIT\Desktop\PYTHON LEARNING\HUMAN IMAGE CLASSIFICATION\haarcascade_frontalface_default.xml') #Reads the haarcascade file and store in the variable
 
     faces_rect = haar_cascade.detectMultiScale(gray,scaleFactor=1.05,minNeighbors=5)
 
