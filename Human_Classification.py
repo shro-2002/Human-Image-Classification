@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt 
 
 for i in range(1,174):
-    img = cv.imread('C:/Users/KIIT/Desktop/Human Image Proj/Sample/input ('+str(i)+').jpg')
+    img = cv.imread('C:\Users\KIIT\Desktop\PYTHON LEARNING\HUMAN IMAGE CLASSIFICATION ('+str(i)+').jpg')
     plt.subplot(2,2,1)
     #cv.imshow(str(i),img)
 
