@@ -1,4 +1,4 @@
-# Human Classification: Indian vs Non-Indian
+# Human Image Classification: Indian vs Non-Indian
 The Human Classification project aims to classify human images as either Indian or Non-Indian. The project utilizes image processing techniques and machine learning algorithms to analyze facial features and make accurate classification predictions.
 
 # Components
